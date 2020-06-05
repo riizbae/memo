@@ -52,6 +52,17 @@ __git add *__ rajouter tout les fichiers
 
 **git merge nombranche** merge la branche à cloner
 
+#### explication 
+
+*pour cloner une branche A dans une branche B il faut :*
+se placer sur la branche B
+et merge la branche A 
+
+>git checkout branche_B
+>git merge branche_A
+>git push 
+
+
 **git commit -m "commentaire"** ajout d'un commentaire
 
 **git push --set-upstream origin nombranche** rajout sur le serveur 
