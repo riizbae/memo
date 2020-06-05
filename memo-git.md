@@ -1,4 +1,4 @@
-# Fixer les acquis en git
+# les commandes git
 
 
 ## configuration & clef
