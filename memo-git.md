@@ -62,4 +62,5 @@ __git add *__ rajouter tout les fichiers
 
 **git pull** permet de charger les nouveautés.
 
-**git revert** retour en arrière d
+**git revert** retour en arrière dans une modification 
+>commande spécial Loïc \o/
