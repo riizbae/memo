@@ -59,8 +59,12 @@ se placer sur la branche B
 et merge la branche A 
 
 >git checkout branche_B
+
 >git merge branche_A
->git push 
+
+>git commit -m "commentaire"
+
+>git push --set-upstream origin branche_A
 
 
 **git commit -m "commentaire"** ajout d'un commentaire
