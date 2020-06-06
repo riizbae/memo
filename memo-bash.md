@@ -51,3 +51,24 @@ dossier
  * *grep expression /répertoire/fichier*
  * *grep [aFm]in /répertoire/fichier*
  * *grep "\$" *.txt*
+
+
+## Les commandes d'édition
+
+**more** "pager" qui affiche page par page sans retour en arrière, "h" affiche
+l'aide contextuelle
+ * _more fichier_
+ * _more fichier1 fichier2_
+ * _more *.txt_
+
+__cat__ concatenate avec le code de fin de fichier eof=CTRL + D
+ * _cat fichier-un fichier-deux > fichier-un-deux_
+ * _cat -n fichier > fichier-numéroté_ crée un fichier dont les lignes sont
+numérotés
+ * _cat -nb fichier_ affiche sur la sortie standard les lignes numéroté, sauf les
+lignes vides
+
+**head** affiche les 10 premières lignes d'un fichier
+ * * _head -n22 fichier_* affiche les 22 premières lignes
+
+
